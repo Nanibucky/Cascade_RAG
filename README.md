@@ -26,6 +26,7 @@ Step 2: Dense Retrieval (FAISS)
 The BM25 candidate documents are re-ranked using dense retrieval.
 OpenAI embeddings compute semantic similarities to the query.
 FAISS efficiently retrieves the top relevant documents from the candidates.
+
 🔹 This method leverages both sparse and dense techniques, ensuring a balance between speed and accuracy.
 For more details, refer to the implementation in the source code (see rag_agent.py).
 
