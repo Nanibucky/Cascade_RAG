@@ -8,30 +8,16 @@ This repository implements a **Retrieval Augmented Generation (RAG) agent** that
 
 Clone the repository using Git:
 
-```bash
 git clone https://github.com/yourusername/rag-agent.git
 Then, navigate into the project directory:
 
-bash
-Copy
-Edit
-cd rag-agent
 ⚙️ Setup
-1️⃣ Install Dependencies
+ Install Dependencies
 Install the required packages:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
-2️⃣ Environment Variables
-Create a .env file in the root directory and add your OpenAI API key:
 
-ini
-Copy
-Edit
-OPENAI_API_KEY=your-api-key
-🔍 How Cascade Retrieval Works
+## 🔍 How Cascade Retrieval Works
 Step 1: Sparse Retrieval (BM25)
 The agent uses BM25 to perform an initial, fast retrieval over the full corpus.
 It returns a broader set of candidate documents, efficiently reducing the search space.
@@ -45,17 +31,10 @@ For more details, refer to the implementation in the source code (see rag_agent.
 🚀 Running the Agent
 Execute the following command to run the RAG agent:
 
-bash
-Copy
-Edit
 python rag_agent.py
+
 The agent will: ✅ Load documents from the specified directory.
 ✅ Apply cascade retrieval to extract relevant context based on your query.
 ✅ Use an LLM (e.g., GPT-4) to generate a response.
 
-📜 License
-[Include your license information here.]
-
-🤝 Contributing
-Contributions are welcome! Please follow the repository guidelines for submitting updates and improvements.
 
