@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 # Load environment variables
 load_dotenv()
-openai_api_key = "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"
+openai_api_key = "Your-api-key"
 
 # Constants for text splitting
 CHUNK_SIZE = 1000
@@ -133,7 +133,7 @@ def run_rag_agent(query: str, docs_directory: str) -> QueryResult:
 
 if __name__ == "__main__":
     docs_directory = "/Users/tharun/Desktop/Research_papers"  # Replace with your documents directory
-    query = "Who is Tharun reddy Pyayala and ALex Kirvozki?"
+    query = "Who is Tharun reddy Pyayala?"
     
     result = run_rag_agent(query, docs_directory)
     
