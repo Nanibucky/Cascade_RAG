@@ -3,18 +3,10 @@ faiss-cpu
 PyPDF2
 python-docx
 requests
-sqlalchemy
 pydantic
 openai
 tiktoken
 python-dotenv
-
-# Database driver (use appropriate one for your DB)
-psycopg2-binary # For PostgreSQL
-scikit-learn
-# Optional for advanced features
-llama-index
 python-docx
 langchain-openai
 rank_bm25
-# psql -U postgres -d chinook
