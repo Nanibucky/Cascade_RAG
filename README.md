@@ -8,7 +8,7 @@ This repository implements a **Retrieval Augmented Generation (RAG) agent** that
 
 Clone the repository using Git:
 
-git clone https://github.com/yourusername/rag-agent.git
+git clone [https://github.com/Nanibucky/Cascade_RAG.git]
 
 
 ⚙️ Setup
