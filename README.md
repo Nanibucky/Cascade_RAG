@@ -9,7 +9,7 @@ This repository implements a **Retrieval Augmented Generation (RAG) agent** that
 Clone the repository using Git:
 
 git clone https://github.com/yourusername/rag-agent.git
-Then, navigate into the project directory:
+
 
 ⚙️ Setup
  Install Dependencies
@@ -21,6 +21,7 @@ pip install -r requirements.txt
 Step 1: Sparse Retrieval (BM25)
 The agent uses BM25 to perform an initial, fast retrieval over the full corpus.
 It returns a broader set of candidate documents, efficiently reducing the search space.
+
 Step 2: Dense Retrieval (FAISS)
 The BM25 candidate documents are re-ranked using dense retrieval.
 OpenAI embeddings compute semantic similarities to the query.
@@ -34,7 +35,9 @@ Execute the following command to run the RAG agent:
 python rag_agent.py
 
 The agent will: ✅ Load documents from the specified directory.
+
 ✅ Apply cascade retrieval to extract relevant context based on your query.
+
 ✅ Use an LLM (e.g., GPT-4) to generate a response.
 
 
