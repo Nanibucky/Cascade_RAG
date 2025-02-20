@@ -1,6 +1,4 @@
 import os
-os.environ["TIKTOKEN_NO_EXT"] = "1"  # Disable external tiktoken plugins
-
 import logging
 from typing import List
 from dataclasses import dataclass
